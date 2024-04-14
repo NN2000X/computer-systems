@@ -143,7 +143,7 @@ NOTES:
  *   Rating: 1
  */
 int bitXor(int x, int y) {
-  // just one of many feasible ways by discrete math induction
+  // just one of many feasible ways by discrete math deduction
   return ~(x&y) & ~(~x&~y);
 }
 /* 
